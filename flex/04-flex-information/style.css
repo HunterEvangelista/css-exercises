@@ -41,12 +41,16 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  max-width: 200px;
   flex-basis: auto;
 }
 
 .image-sub-container img {
   flex: 2;
+}
+
+.image-sub-container div {
+  align-self: center;
 }
 
 /* do not edit this footer */
